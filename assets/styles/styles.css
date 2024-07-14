@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #64c0bd;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-padding-top: 80px; //TODO: change for responsive
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+}
+
+.bi-globe {
+    color: var(--primary-color);
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.navbar-title:hover .bi-globe {
+    color: var(--secondary-color);
+    transition: 0.25s;
+}
+
+.inactive:hover {
+    color: var(--secondary-color) !important;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Add your CSS rules here */
+
+    .navbar-title {
+        margin-right: 0 !important;
+    }
+
+    html {
+        scroll-padding-top: 120px !important; //TODO: change for responsive
+    }
+}
+
+@media (min-width: 463px) and (max-width: 767px) {
+
+    html {
+        scroll-padding-top: 100px !important; //TODO: change for responsive
+    }
+}
+
+@media (max-width: 462px) {
+    .navbar-title span {
+        font-size: 0.8rem !important;
+    }
+    .nav-item a {
+        font-size: 0.8rem !important;
+    }
+
+    /* header {
+        padding: 0 !important;
+        padding-bottom: 0 !important;
+    } */
+}
