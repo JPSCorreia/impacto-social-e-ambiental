@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #0d6efd;
-    --secondary-color: #64c0bd;
+    --primary-color: #003462;
+    --secondary-color: #57C1E8;
 }
 
 * {
@@ -21,6 +21,101 @@ header {
     z-index: 9999;
 }
 
+table {
+    background-color:rgb(87, 193, 232);
+    border-collapse: collapse;
+    width: 22vw;
+    border-style: none;
+    border-radius: 12px;
+}
+
+th:first-child{
+    border-radius: 12px 0 0 0;
+}
+
+th:last-child{
+    border-radius: 0 12px 0 0;
+}
+
+th, td {
+    padding: 1.5%;
+    text-align: left;
+}
+
+th p {
+    margin: 0;
+    font-size: 0.95vw;
+}
+
+td h3 {
+    margin: -0.9vw 0 0 11vw;
+    font-size: 0.84vw;
+    font-weight: lighter;
+}
+
+td h4 {
+    margin: 0;
+    font-size: 0.84vw;
+}
+
+
+
+.indicador {
+    background-color: rgba(0, 43, 73);
+    width: 80%;
+    padding: 12px;
+    color: #fff
+}
+
+.valor {
+    background-color: rgba(0, 43, 73);
+    color: #fff;
+    width: 20%;
+}
+
+#slider1 {
+    
+    background-image: url('/assets/styles/images/2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider2 {
+    background-image: url('/assets/styles/images/3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider3 {
+    background-image: url('/assets/styles/images/4.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider4 {
+    background-image: url('/assets/styles/images/5.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider5 {
+    background-image: url('/assets/styles/images/6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider6 {
+    background-image: url('/assets/styles/images/7.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sliderImg {
+    z-index: -1;
+    width: 100%;
+    margin: -31.5% 0 6% 0;
+}
+
 .bi-globe {
     color: var(--primary-color);
     margin-right: 8px;
@@ -35,6 +130,54 @@ header {
 .inactive:hover {
     color: var(--secondary-color) !important;
 }
+
+.card {
+    margin: 1rem 0;
+}
+
+.accordion-social{
+    margin-top:5%
+}
+
+
+.contactos-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.contactos-nomes {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.contactos-nomes span {
+    margin: 0.5rem;
+}
+
+.atec-logo {
+    flex: 1;
+}
+
+.contactos-formadora {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+}
+
+.contactos-formadora span {
+    margin: 0.5rem;
+}
+
 
 @media (min-width: 768px) and (max-width: 992px) {
     /* Add your CSS rules here */
@@ -63,8 +206,35 @@ header {
         font-size: 0.8rem !important;
     }
 
+    .nav-link {
+        padding: 0.5rem;
+    }
+
     /* header {
         padding: 0 !important;
         padding-bottom: 0 !important;
     } */
+}
+
+@media (max-width: 1000px) {
+    .contactos-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactos-nomes {
+        align-items: center;
+    }
+    .contactos-formadora {
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .atec-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-title {
+        margin-right: 0 !important;
+    }
 }

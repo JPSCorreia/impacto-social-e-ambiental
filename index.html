@@ -1,366 +1,1248 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Impacto Social e Ambiental da Tecnologia</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
-        <link href="./assets/styles/styles.css" rel="stylesheet" />
-        <link
-            rel="stylesheet"
-            href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
-        />
-    </head>
-    <body>
-        <header
-            class="d-flex flex-wrap justify-content-center p-md-3 p-sm-2 p-1 mb-4 border-bottom container"
-        >
-            <a
-                href="/"
-                class="d-flex align-items-center mb-sm-1 me-md-auto link-body-emphasis text-decoration-none navbar-title"
-            >
-                <i class="bi bi-globe"></i>
-                <span class="fs-4"
-                    >Impacto Social e Ambiental da Tecnologia</span
-                >
-            </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impacto Social e Ambiental da Tecnologia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./assets/styles/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header
+      class="d-flex flex-wrap justify-content-center p-md-3 p-sm-2 p-1 mb-4 border-bottom container"
+    >
+      <a
+        href="/"
+        class="d-flex align-items-center mb-sm-1 me-md-auto link-body-emphasis text-decoration-none navbar-title"
+      >
+        <i class="bi bi-globe"></i>
+        <span class="fs-4">Impacto Social e Ambiental da Tecnologia</span>
+      </a>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a href="#" class="nav-link inactive" aria-current="page"
-                        >Home</a
-                    >
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#" class="nav-link inactive" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#social" class="nav-link inactive">Impacto Social</a>
+        </li>
+        <li class="nav-item">
+          <a href="#ambiental" class="nav-link inactive">Impacto Ambiental</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contactos" class="nav-link inactive">Contactos</a>
+        </li>
+      </ul>
+    </header>
+    <main class="container" id="home">
+      <div>
+        <img src="./assets/styles/images/1.jpeg" class="img-fluid w-100 mb-5" />
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide carrosel-slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div id="slider1" class="hiddenTable">
+              <table style="display: absolut; margin-left: 17%">
+                <tr>
+                  <th class="indicador">
+                    <p>INDICADOR - 2010</p>
+                  </th>
+                  <th class="valor"><p>VALOR</p></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desemprego</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>10,8%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Salário Minímo Médio</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>554,17€</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Pobreza</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>23,2%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Alfabetização</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>90,4%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula Escolar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>90%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula E.S.</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>80%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Graduação Superior</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>30,6%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Expectativa de Vida</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>79,6 anos</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Mortalidade Infantil</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>2,5%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Índice de Qualidade do Ar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>93,5%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade da Água</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>97,71%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desflorestação</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>0,3%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Criminalidade</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>3,4%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade Habitacional</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>80%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Igualdade do Género</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>65,2%</h4></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="slider2" class="hiddenTable">
+              <table style="margin-left: 37%">
+                <tr>
+                  <th class="indicador">
+                    <p>INDICADOR - 2012</p>
+                  </th>
+                  <th class="valor"><p>VALOR</p></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desemprego</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>15,7%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Salário Minímo Médio</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>565,83€</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Pobreza</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>25,3%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Alfabetização</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>94,7%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula Escolar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>91,8%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula E.S.</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>82%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Graduação Superior</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>33,4%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Expectativa de Vida</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>79,8 anos</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Mortalidade Infantil</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>3,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Índice de Qualidade do Ar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>93,8%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade da Água</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>98,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desflorestação</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>0,2%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Criminalidade</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>3,2%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade Habitacional</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>81%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Igualdade do Género</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>67,5%</h4></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="slider3" class="hiddenTable">
+              <table style="margin-left: 5%">
+                <tr>
+                  <th class="indicador">
+                    <p>INDICADOR - 2014</p>
+                  </th>
+                  <th class="valor"><p>VALOR</p></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desemprego</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>13,9%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Salário Minímo Médio</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>589,17€</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Pobreza</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>19,5%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Alfabetização</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>94,9%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula Escolar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>92,3%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula E.S.</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>84%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Graduação Superior</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>34,9%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Expectativa de Vida</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>80,5 anos</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Mortalidade Infantil</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>2,9%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Índice de Qualidade do Ar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>93,3%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade da Água</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>98,5%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desflorestação</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>0,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Criminalidade</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>3,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade Habitacional</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>83%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Igualdade do Género</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>68,7%</h4></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="slider4" class="hiddenTable">
+              <table style="margin-left: 66%">
+                <tr>
+                  <th class="indicador">
+                    <p>INDICADOR - 2016</p>
+                  </th>
+                  <th class="valor"><p>VALOR</p></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desemprego</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>11,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Salário Minímo Médio</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>618,33€</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Pobreza</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>18,3%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Alfabetização</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>95,0%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula Escolar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>93,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula E.S.</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>86%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Graduação Superior</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>35,8%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Expectativa de Vida</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>81,3 anos</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Mortalidade Infantil</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>2,8%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Índice de Qualidade do Ar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>94,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade da Água</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>98,7%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desflorestação</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>0,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Criminalidade</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>3,0%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade Habitacional</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>85%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Igualdade do Género</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>69,5%</h4></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="slider5" class="hiddenTable">
+              <table style="margin-left: 68%">
+                <tr>
+                  <th class="indicador">
+                    <p>INDICADOR - 2018</p>
+                  </th>
+                  <th class="valor"><p>VALOR</p></th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desemprego</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>7,0%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Salário Minímo Médio</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>635,00€</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Pobreza</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>17,2%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Alfabetização</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>95,7%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula Escolar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>93,9%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula E.S.</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>87%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Graduação Superior</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>37,5%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Expectativa de Vida</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>81,6 anos</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Mortalidade Infantil</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>2,7%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Índice de Qualidade do Ar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>94,8%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade da Água</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>98,8%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desflorestação</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>0,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Criminalidade</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>2,9%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade Habitacional</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>86%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Igualdade do Género</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>70,2%</h4></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div id="slider6" class="hiddenTable">
+              <table>
+                <tr>
+                  <th class="indicador">
+                    <p>INDICADOR - 2020</p>
+                  </th>
+                  <th class="valor">
+                    <p>VALOR</p>
+                    <p></p>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desemprego</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>7%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Salário Minímo Médio</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>677,00€</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Pobreza</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>16.2%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Alfabetização</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>96%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula Escolar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>99%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Matrícula E.S.</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>88%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Graduação Superior</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>35%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Expectativa de Vida</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>81 anos</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Mortalidade Infantil</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>2.5/1000</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Índice de Qualidade do Ar</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>50 IQA</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade da Água</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>99%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Desflorestação</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>0,1%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Taxa de Criminalidade</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>2,7%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Qualidade Habitacional</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>74,5%</h4></td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Igualdade do Género</h4>
+                    <h3>· · · · · · · · · · ·</h3>
+                  </td>
+                  <td><h4>62.1</h4></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h1 id="social" class="mt-5">Impacto Social</h1>
+      <div class="card">
+        <div class="card-body">
+          <p class="mb-0">
+            A automação tecnológica tem vindo a transformar de forma
+            significativa as sociedades, influenciando diversas áreas da vida
+            quotidiana, como a economia e o mercado de trabalho. <br />A adoção
+            crescente de tecnologias automatizadas está a moldar o futuro de
+            várias indústrias, ao mesmo tempo que levanta questões importantes
+            sobre o impacto social desta transformação.
+          </p>
+        </div>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Mercado de Trabalho
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <p>
+                <strong>Desemprego e Transformação de Empregos:</strong>
+                A automação substitui tarefas rotineiras em setores como a
+                indústria, a agricultura e serviços, aumentando a eficiência,
+                mas resultando no desemprego de trabalhadores cujas habilidades
+                se tornaram ultrapassadas.
+              </p>
+              <p>
+                <strong>Criação de Novas Oportunidades de Emprego:</strong>
+                Surgem novos empregos em áreas como programação e robótica,
+                exigindo requalificação e formação contínua dos trabalhadores.
+              </p>
+              <p>
+                <strong>Desigualdade Social:</strong> A automação pode agravar a
+                desigualdade social se as oportunidades de requalificação não
+                forem acessíveis a todos, prejudicando trabalhadores menos
+                qualificados ou de áreas com menos recursos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Economia
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <p>
+                <strong>Aumento da Produtividade:</strong>
+                Máquinas e algoritmos operam continuamente, aumentando a
+                produtividade e eficiência económica.
+              </p>
+              <p>
+                <strong>Redução de Custos:</strong> Empresas reduzem custos
+                operacionais substituindo trabalhadores humanos, podendo
+                resultar em produtos mais baratos, e pressiona pequenas e médias
+                empresas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Qualidade de vida
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <p>
+                <strong>Trabalhos Monótonos e Perigosos:</strong>
+                A automação elimina trabalhos monótonos e perigosos, permitindo
+                que os humanos se concentrem em tarefas mais criativas e
+                gratificantes.
+              </p>
+              <p>
+                <strong>Flexibilidade e Tempo Livre:</strong> A automação
+                proporciona mais flexibilidade nos horários de trabalho e
+                aumenta o tempo livre, melhorando o equilíbrio entre vida
+                profissional e pessoal.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              Implicações Éticas e Sociais
+            </button>
+          </h2>
+          <div
+            id="flush-collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <p>
+                <strong>Privacidade e Segurança:</strong> O uso crescente de
+                tecnologias automatizadas levanta preocupações sobre privacidade
+                e segurança dos dados, necessitando de regulamentação robusta.
+              </p>
+              <p>
+                <strong>Impacto Psicológico:</strong> A substituição de
+                trabalhadores humanos pode causar stress, ansiedade e perda de
+                identidade profissional, sendo essencial considerar o bem-estar
+                mental e emocional dos trabalhadores.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 id="ambiental" class="mt-5">Impacto Ambiental</h1>
+      <div class="card">
+        <div class="card-body">
+          <p class="mb-0">
+            A nível do impacto ambiental, a influência das tecnologias pode ser
+            analisada a partir de várias perspectivas: desde a produção e
+            consumo de energia, até à gestão de resíduos e a digitalização de
+            processos.
+          </p>
+        </div>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+              Pegada de Carbono
+            </button>
+          </h2>
+
+          <div
+            id="flush-collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <p>
+                A <strong>Pegada de carbono</strong> é uma medida da quantidade
+                total de gases de efeito estufa (GEE) emitidos direta ou
+                indiretamente por atividades humanas, frequentemente expressa em
+                toneladas de dióxido de carbono equivalente (tCO2e). A
+                tecnologia tem um impacto significativo na pegada de carbono
+                devido a vários fatores:
+              </p>
+              <ul>
+                <li>
+                  <strong>Produção de Dispositivos:</strong>
+                  <ul>
+                    <li>
+                      <em>Extração de Recursos:</em> A produção de dispositivos
+                      tecnológicos envolve a extração de minerais e metais
+                      raros, como lítio, cobalto e níquel, que requerem grandes
+                      quantidades de energia e resultam em emissões substanciais
+                      de GEE.
+                    </li>
+                    <li>
+                      <em>Manufatura:</em> A fabricação de dispositivos
+                      eletrônicos é um processo intensivo em energia. A
+                      fabricação de semicondutores, por exemplo, é
+                      particularmente intensiva em energia e gera emissões
+                      significativas de GEE.
+                    </li>
+                  </ul>
                 </li>
-                <li class="nav-item ">
-                    <a href="#social" class="nav-link inactive">Impacto Social</a>
+                <li>
+                  <strong>Consumo de Energia:</strong>
+                  <ul>
+                    <li>
+                      <em>Data Centers:</em> Os data centers, que armazenam e
+                      processam grandes volumes de dados, consomem enormes
+                      quantidades de eletricidade. Em 2021, estima-se que os
+                      data centers foram responsáveis por cerca de 1% do consumo
+                      global de eletricidade.
+                    </li>
+                    <li>
+                      <em>Dispositivos Pessoais:</em>
+                      Computadores, smartphones, tablets e outros dispositivos
+                      eletrônicos consomem energia diariamente. O uso
+                      generalizado desses dispositivos contribui
+                      significativamente para a pegada de carbono.
+                    </li>
+                  </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="#ambiental" class="nav-link inactive">Impacto Ambiental</a>
+                <li>
+                  <strong>Descarte de Dispositivos:</strong>
+                  <ul>
+                    <li>
+                      <em>E-Waste:</em> O descarte inadequado de dispositivos
+                      eletrônicos, conhecido como lixo eletrônico (e-waste),
+                      pode liberar GEE devido à decomposição de materiais e à
+                      falta de reciclagem adequada. Além disso, o processamento
+                      inadequado de e-waste pode liberar toxinas e poluentes no
+                      ambiente.
+                    </li>
+                  </ul>
                 </li>
-                <li class="nav-item"><a href="#contactos" class="nav-link inactive">Contactos</a></li>
-            </ul>
-        </header>
-        <main class="container" id="home">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                aliquam auctor ipsum quis rutrum. Orci varius natoque penatibus
-                et magnis dis parturient montes, nascetur ridiculus mus.
-                Suspendisse vitae imperdiet velit. Nam iaculis sapien in mauris
-                suscipit efficitur. Sed porta rhoncus ante, ac maximus dolor
-                volutpat vitae. Aliquam imperdiet orci eget odio lobortis, id
-                euismod leo placerat. Pellentesque eu lectus congue sapien
-                varius luctus efficitur ac dolor. Nulla libero lectus, molestie
-                vitae pretium eget, laoreet porttitor lacus. Orci varius natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Aenean et nulla et purus pretium viverra. Cras commodo
-                vestibulum nisl et egestas. Quisque facilisis quam eget lorem
-                rhoncus, sit amet mollis nisl tincidunt. Maecenas bibendum
-                tortor eu leo condimentum, ac aliquam justo accumsan. Morbi
-                hendrerit lorem neque, in dictum felis vehicula et. Mauris
-                dignissim id diam non mollis. Maecenas lobortis mauris at
-                lobortis varius. Suspendisse sed neque odio. Phasellus eleifend
-                justo ut porta eleifend. Fusce at ex turpis. Sed odio ipsum,
-                sodales in posuere id, lobortis ac dolor. Etiam a lectus vel
-                mauris viverra vestibulum. Nulla a urna nec leo lacinia
-                consectetur quis ac enim. Cras eget dui convallis eros suscipit
-                aliquet id quis tellus. Nam elit nibh, molestie ac metus
-                egestas, tempor hendrerit mi. Proin in magna pretium,
-                scelerisque tortor in, sagittis erat. Aliquam non efficitur leo,
-                et hendrerit orci. Maecenas volutpat viverra massa in congue.
-                Nam ac malesuada odio. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Aenean semper nisl quis faucibus dictum. In
-                erat augue, interdum at luctus non, viverra in metus. Vestibulum
-                ornare egestas velit eu semper. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nullam vel orci elementum, semper
-                velit imperdiet, sodales ante. Pellentesque sollicitudin, dolor
-                sit amet rutrum convallis, arcu urna consequat ex, eget
-                consectetur purus lacus feugiat ex. Aenean dolor dolor,
-                facilisis vel aliquam vitae, aliquet id ipsum. Suspendisse
-                tempus tincidunt volutpat. Sed ornare sodales tortor, non
-                hendrerit leo vestibulum nec. Nunc cursus, turpis ac interdum
-                ornare, eros velit blandit arcu, sed varius nunc sapien id
-                velit. Vestibulum finibus dui vitae orci scelerisque, eget
-                efficitur ante aliquam. Sed non dolor ante. Morbi in eros quis
-                mi aliquet sodales eget et urna. Pellentesque sollicitudin ipsum
-                eget convallis egestas. Nam ultrices dolor eget felis tempor, id
-                malesuada augue aliquam. Vivamus vel lectus ut diam ornare
-                mattis eget et augue. Sed lacinia nisi sed tempus aliquam.
-                Aenean viverra porttitor magna eu euismod. Suspendisse tempus
-                massa tincidunt mi aliquet, ac venenatis ex molestie. Sed at
-                mattis tellus, at interdum metus. Donec ut iaculis dui. Quisque
-                nisl libero, tristique id dui consectetur, malesuada tempus
-                urna. Sed purus est, pulvinar ac fringilla a, pellentesque
-                sagittis mauris. In dictum eu augue in gravida. Quisque
-                pellentesque nisl at dignissim commodo. Vivamus interdum dapibus
-                arcu, quis sodales arcu bibendum a. Quisque eu condimentum
-                dolor. Donec porttitor mauris ac odio aliquam, id lobortis velit
-                pretium. Vestibulum euismod eget quam in faucibus. Suspendisse
-                condimentum luctus mi et tristique. Cras eleifend ac nulla sed
-                faucibus. Mauris dolor ante, cursus non augue sit amet, accumsan
-                auctor est. Interdum et malesuada fames ac ante ipsum primis in
-                faucibus. Aliquam massa sem, semper et libero quis, blandit
-                porta odio. Quisque quis mauris interdum, tempus eros placerat,
-                porta orci. Vivamus et massa vel nulla viverra pretium vel vel
-                sem.
-            </p>
-            <h1 id="social">Impacto Social</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                aliquam auctor ipsum quis rutrum. Orci varius natoque penatibus
-                et magnis dis parturient montes, nascetur ridiculus mus.
-                Suspendisse vitae imperdiet velit. Nam iaculis sapien in mauris
-                suscipit efficitur. Sed porta rhoncus ante, ac maximus dolor
-                volutpat vitae. Aliquam imperdiet orci eget odio lobortis, id
-                euismod leo placerat. Pellentesque eu lectus congue sapien
-                varius luctus efficitur ac dolor. Nulla libero lectus, molestie
-                vitae pretium eget, laoreet porttitor lacus. Orci varius natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Aenean et nulla et purus pretium viverra. Cras commodo
-                vestibulum nisl et egestas. Quisque facilisis quam eget lorem
-                rhoncus, sit amet mollis nisl tincidunt. Maecenas bibendum
-                tortor eu leo condimentum, ac aliquam justo accumsan. Morbi
-                hendrerit lorem neque, in dictum felis vehicula et. Mauris
-                dignissim id diam non mollis. Maecenas lobortis mauris at
-                lobortis varius. Suspendisse sed neque odio. Phasellus eleifend
-                justo ut porta eleifend. Fusce at ex turpis. Sed odio ipsum,
-                sodales in posuere id, lobortis ac dolor. Etiam a lectus vel
-                mauris viverra vestibulum. Nulla a urna nec leo lacinia
-                consectetur quis ac enim. Cras eget dui convallis eros suscipit
-                aliquet id quis tellus. Nam elit nibh, molestie ac metus
-                egestas, tempor hendrerit mi. Proin in magna pretium,
-                scelerisque tortor in, sagittis erat. Aliquam non efficitur leo,
-                et hendrerit orci. Maecenas volutpat viverra massa in congue.
-                Nam ac malesuada odio. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Aenean semper nisl quis faucibus dictum. In
-                erat augue, interdum at luctus non, viverra in metus. Vestibulum
-                ornare egestas velit eu semper. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nullam vel orci elementum, semper
-                velit imperdiet, sodales ante. Pellentesque sollicitudin, dolor
-                sit amet rutrum convallis, arcu urna consequat ex, eget
-                consectetur purus lacus feugiat ex. Aenean dolor dolor,
-                facilisis vel aliquam vitae, aliquet id ipsum. Suspendisse
-                tempus tincidunt volutpat. Sed ornare sodales tortor, non
-                hendrerit leo vestibulum nec. Nunc cursus, turpis ac interdum
-                ornare, eros velit blandit arcu, sed varius nunc sapien id
-                velit. Vestibulum finibus dui vitae orci scelerisque, eget
-                efficitur ante aliquam. Sed non dolor ante. Morbi in eros quis
-                mi aliquet sodales eget et urna. Pellentesque sollicitudin ipsum
-                eget convallis egestas. Nam ultrices dolor eget felis tempor, id
-                malesuada augue aliquam. Vivamus vel lectus ut diam ornare
-                mattis eget et augue. Sed lacinia nisi sed tempus aliquam.
-                Aenean viverra porttitor magna eu euismod. Suspendisse tempus
-                massa tincidunt mi aliquet, ac venenatis ex molestie. Sed at
-                mattis tellus, at interdum metus. Donec ut iaculis dui. Quisque
-                nisl libero, tristique id dui consectetur, malesuada tempus
-                urna. Sed purus est, pulvinar ac fringilla a, pellentesque
-                sagittis mauris. In dictum eu augue in gravida. Quisque
-                pellentesque nisl at dignissim commodo. Vivamus interdum dapibus
-                arcu, quis sodales arcu bibendum a. Quisque eu condimentum
-                dolor. Donec porttitor mauris ac odio aliquam, id lobortis velit
-                pretium. Vestibulum euismod eget quam in faucibus. Suspendisse
-                condimentum luctus mi et tristique. Cras eleifend ac nulla sed
-                faucibus. Mauris dolor ante, cursus non augue sit amet, accumsan
-                auctor est. Interdum et malesuada fames ac ante ipsum primis in
-                faucibus. Aliquam massa sem, semper et libero quis, blandit
-                porta odio. Quisque quis mauris interdum, tempus eros placerat,
-                porta orci. Vivamus et massa vel nulla viverra pretium vel vel
-                sem.
-            </p>
-            <h1 id="ambiental">Impacto Ambiental</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                aliquam auctor ipsum quis rutrum. Orci varius natoque penatibus
-                et magnis dis parturient montes, nascetur ridiculus mus.
-                Suspendisse vitae imperdiet velit. Nam iaculis sapien in mauris
-                suscipit efficitur. Sed porta rhoncus ante, ac maximus dolor
-                volutpat vitae. Aliquam imperdiet orci eget odio lobortis, id
-                euismod leo placerat. Pellentesque eu lectus congue sapien
-                varius luctus efficitur ac dolor. Nulla libero lectus, molestie
-                vitae pretium eget, laoreet porttitor lacus. Orci varius natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Aenean et nulla et purus pretium viverra. Cras commodo
-                vestibulum nisl et egestas. Quisque facilisis quam eget lorem
-                rhoncus, sit amet mollis nisl tincidunt. Maecenas bibendum
-                tortor eu leo condimentum, ac aliquam justo accumsan. Morbi
-                hendrerit lorem neque, in dictum felis vehicula et. Mauris
-                dignissim id diam non mollis. Maecenas lobortis mauris at
-                lobortis varius. Suspendisse sed neque odio. Phasellus eleifend
-                justo ut porta eleifend. Fusce at ex turpis. Sed odio ipsum,
-                sodales in posuere id, lobortis ac dolor. Etiam a lectus vel
-                mauris viverra vestibulum. Nulla a urna nec leo lacinia
-                consectetur quis ac enim. Cras eget dui convallis eros suscipit
-                aliquet id quis tellus. Nam elit nibh, molestie ac metus
-                egestas, tempor hendrerit mi. Proin in magna pretium,
-                scelerisque tortor in, sagittis erat. Aliquam non efficitur leo,
-                et hendrerit orci. Maecenas volutpat viverra massa in congue.
-                Nam ac malesuada odio. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Aenean semper nisl quis faucibus dictum. In
-                erat augue, interdum at luctus non, viverra in metus. Vestibulum
-                ornare egestas velit eu semper. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nullam vel orci elementum, semper
-                velit imperdiet, sodales ante. Pellentesque sollicitudin, dolor
-                sit amet rutrum convallis, arcu urna consequat ex, eget
-                consectetur purus lacus feugiat ex. Aenean dolor dolor,
-                facilisis vel aliquam vitae, aliquet id ipsum. Suspendisse
-                tempus tincidunt volutpat. Sed ornare sodales tortor, non
-                hendrerit leo vestibulum nec. Nunc cursus, turpis ac interdum
-                ornare, eros velit blandit arcu, sed varius nunc sapien id
-                velit. Vestibulum finibus dui vitae orci scelerisque, eget
-                efficitur ante aliquam. Sed non dolor ante. Morbi in eros quis
-                mi aliquet sodales eget et urna. Pellentesque sollicitudin ipsum
-                eget convallis egestas. Nam ultrices dolor eget felis tempor, id
-                malesuada augue aliquam. Vivamus vel lectus ut diam ornare
-                mattis eget et augue. Sed lacinia nisi sed tempus aliquam.
-                Aenean viverra porttitor magna eu euismod. Suspendisse tempus
-                massa tincidunt mi aliquet, ac venenatis ex molestie. Sed at
-                mattis tellus, at interdum metus. Donec ut iaculis dui. Quisque
-                nisl libero, tristique id dui consectetur, malesuada tempus
-                urna. Sed purus est, pulvinar ac fringilla a, pellentesque
-                sagittis mauris. In dictum eu augue in gravida. Quisque
-                pellentesque nisl at dignissim commodo. Vivamus interdum dapibus
-                arcu, quis sodales arcu bibendum a. Quisque eu condimentum
-                dolor. Donec porttitor mauris ac odio aliquam, id lobortis velit
-                pretium. Vestibulum euismod eget quam in faucibus. Suspendisse
-                condimentum luctus mi et tristique. Cras eleifend ac nulla sed
-                faucibus. Mauris dolor ante, cursus non augue sit amet, accumsan
-                auctor est. Interdum et malesuada fames ac ante ipsum primis in
-                faucibus. Aliquam massa sem, semper et libero quis, blandit
-                porta odio. Quisque quis mauris interdum, tempus eros placerat,
-                porta orci. Vivamus et massa vel nulla viverra pretium vel vel
-                sem.
-            </p>
-            <h1 id="contactos">Contactos</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                aliquam auctor ipsum quis rutrum. Orci varius natoque penatibus
-                et magnis dis parturient montes, nascetur ridiculus mus.
-                Suspendisse vitae imperdiet velit. Nam iaculis sapien in mauris
-                suscipit efficitur. Sed porta rhoncus ante, ac maximus dolor
-                volutpat vitae. Aliquam imperdiet orci eget odio lobortis, id
-                euismod leo placerat. Pellentesque eu lectus congue sapien
-                varius luctus efficitur ac dolor. Nulla libero lectus, molestie
-                vitae pretium eget, laoreet porttitor lacus. Orci varius natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Aenean et nulla et purus pretium viverra. Cras commodo
-                vestibulum nisl et egestas. Quisque facilisis quam eget lorem
-                rhoncus, sit amet mollis nisl tincidunt. Maecenas bibendum
-                tortor eu leo condimentum, ac aliquam justo accumsan. Morbi
-                hendrerit lorem neque, in dictum felis vehicula et. Mauris
-                dignissim id diam non mollis. Maecenas lobortis mauris at
-                lobortis varius. Suspendisse sed neque odio. Phasellus eleifend
-                justo ut porta eleifend. Fusce at ex turpis. Sed odio ipsum,
-                sodales in posuere id, lobortis ac dolor. Etiam a lectus vel
-                mauris viverra vestibulum. Nulla a urna nec leo lacinia
-                consectetur quis ac enim. Cras eget dui convallis eros suscipit
-                aliquet id quis tellus. Nam elit nibh, molestie ac metus
-                egestas, tempor hendrerit mi. Proin in magna pretium,
-                scelerisque tortor in, sagittis erat. Aliquam non efficitur leo,
-                et hendrerit orci. Maecenas volutpat viverra massa in congue.
-                Nam ac malesuada odio. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Aenean semper nisl quis faucibus dictum. In
-                erat augue, interdum at luctus non, viverra in metus. Vestibulum
-                ornare egestas velit eu semper. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nullam vel orci elementum, semper
-                velit imperdiet, sodales ante. Pellentesque sollicitudin, dolor
-                sit amet rutrum convallis, arcu urna consequat ex, eget
-                consectetur purus lacus feugiat ex. Aenean dolor dolor,
-                facilisis vel aliquam vitae, aliquet id ipsum. Suspendisse
-                tempus tincidunt volutpat. Sed ornare sodales tortor, non
-                hendrerit leo vestibulum nec. Nunc cursus, turpis ac interdum
-                ornare, eros velit blandit arcu, sed varius nunc sapien id
-                velit. Vestibulum finibus dui vitae orci scelerisque, eget
-                efficitur ante aliquam. Sed non dolor ante. Morbi in eros quis
-                mi aliquet sodales eget et urna. Pellentesque sollicitudin ipsum
-                eget convallis egestas. Nam ultrices dolor eget felis tempor, id
-                malesuada augue aliquam. Vivamus vel lectus ut diam ornare
-                mattis eget et augue. Sed lacinia nisi sed tempus aliquam.
-                Aenean viverra porttitor magna eu euismod. Suspendisse tempus
-                massa tincidunt mi aliquet, ac venenatis ex molestie. Sed at
-                mattis tellus, at interdum metus. Donec ut iaculis dui. Quisque
-                nisl libero, tristique id dui consectetur, malesuada tempus
-                urna. Sed purus est, pulvinar ac fringilla a, pellentesque
-                sagittis mauris. In dictum eu augue in gravida. Quisque
-                pellentesque nisl at dignissim commodo. Vivamus interdum dapibus
-                arcu, quis sodales arcu bibendum a. Quisque eu condimentum
-                dolor. Donec porttitor mauris ac odio aliquam, id lobortis velit
-                pretium. Vestibulum euismod eget quam in faucibus. Suspendisse
-                condimentum luctus mi et tristique. Cras eleifend ac nulla sed
-                faucibus. Mauris dolor ante, cursus non augue sit amet, accumsan
-                auctor est. Interdum et malesuada fames ac ante ipsum primis in
-                faucibus. Aliquam massa sem, semper et libero quis, blandit
-                porta odio. Quisque quis mauris interdum, tempus eros placerat,
-                porta orci. Vivamus et massa vel nulla viverra pretium vel vel
-                sem.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                aliquam auctor ipsum quis rutrum. Orci varius natoque penatibus
-                et magnis dis parturient montes, nascetur ridiculus mus.
-                Suspendisse vitae imperdiet velit. Nam iaculis sapien in mauris
-                suscipit efficitur. Sed porta rhoncus ante, ac maximus dolor
-                volutpat vitae. Aliquam imperdiet orci eget odio lobortis, id
-                euismod leo placerat. Pellentesque eu lectus congue sapien
-                varius luctus efficitur ac dolor. Nulla libero lectus, molestie
-                vitae pretium eget, laoreet porttitor lacus. Orci varius natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus
-                mus. Aenean et nulla et purus pretium viverra. Cras commodo
-                vestibulum nisl et egestas. Quisque facilisis quam eget lorem
-                rhoncus, sit amet mollis nisl tincidunt. Maecenas bibendum
-                tortor eu leo condimentum, ac aliquam justo accumsan. Morbi
-                hendrerit lorem neque, in dictum felis vehicula et. Mauris
-                dignissim id diam non mollis. Maecenas lobortis mauris at
-                lobortis varius. Suspendisse sed neque odio. Phasellus eleifend
-                justo ut porta eleifend. Fusce at ex turpis. Sed odio ipsum,
-                sodales in posuere id, lobortis ac dolor. Etiam a lectus vel
-                mauris viverra vestibulum. Nulla a urna nec leo lacinia
-                consectetur quis ac enim. Cras eget dui convallis eros suscipit
-                aliquet id quis tellus. Nam elit nibh, molestie ac metus
-                egestas, tempor hendrerit mi. Proin in magna pretium,
-                scelerisque tortor in, sagittis erat. Aliquam non efficitur leo,
-                et hendrerit orci. Maecenas volutpat viverra massa in congue.
-                Nam ac malesuada odio. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Aenean semper nisl quis faucibus dictum. In
-                erat augue, interdum at luctus non, viverra in metus. Vestibulum
-                ornare egestas velit eu semper. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Nullam vel orci elementum, semper
-                velit imperdiet, sodales ante. Pellentesque sollicitudin, dolor
-                sit amet rutrum convallis, arcu urna consequat ex, eget
-                consectetur purus lacus feugiat ex. Aenean dolor dolor,
-                facilisis vel aliquam vitae, aliquet id ipsum. Suspendisse
-                tempus tincidunt volutpat. Sed ornare sodales tortor, non
-                hendrerit leo vestibulum nec. Nunc cursus, turpis ac interdum
-                ornare, eros velit blandit arcu, sed varius nunc sapien id
-                velit. Vestibulum finibus dui vitae orci scelerisque, eget
-                efficitur ante aliquam. Sed non dolor ante. Morbi in eros quis
-                mi aliquet sodales eget et urna. Pellentesque sollicitudin ipsum
-                eget convallis egestas. Nam ultrices dolor eget felis tempor, id
-                malesuada augue aliquam. Vivamus vel lectus ut diam ornare
-                mattis eget et augue. Sed lacinia nisi sed tempus aliquam.
-                Aenean viverra porttitor magna eu euismod. Suspendisse tempus
-                massa tincidunt mi aliquet, ac venenatis ex molestie. Sed at
-                mattis tellus, at interdum metus. Donec ut iaculis dui. Quisque
-                nisl libero, tristique id dui consectetur, malesuada tempus
-                urna. Sed purus est, pulvinar ac fringilla a, pellentesque
-                sagittis mauris. In dictum eu augue in gravida. Quisque
-                pellentesque nisl at dignissim commodo. Vivamus interdum dapibus
-                arcu, quis sodales arcu bibendum a. Quisque eu condimentum
-                dolor. Donec porttitor mauris ac odio aliquam, id lobortis velit
-                pretium. Vestibulum euismod eget quam in faucibus. Suspendisse
-                condimentum luctus mi et tristique. Cras eleifend ac nulla sed
-                faucibus. Mauris dolor ante, cursus non augue sit amet, accumsan
-                auctor est. Interdum et malesuada fames ac ante ipsum primis in
-                faucibus. Aliquam massa sem, semper et libero quis, blandit
-                porta odio. Quisque quis mauris interdum, tempus eros placerat,
-                porta orci. Vivamus et massa vel nulla viverra pretium vel vel
-                sem.
-            </p>
-        </main>
-    </body>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix"
+              aria-expanded="false"
+              aria-controls="flush-collapseSix"
+            >
+              Poluição Ambiental
+            </button>
+          </h2>
+          <div
+            id="flush-collapseSix"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <p>
+                A tecnologia também contribui para vários tipos de poluição
+                ambiental:
+              </p>
+              <ul>
+                <li>
+                  <strong>Poluição do Ar:</strong>
+                  <ul>
+                    <li>
+                      <em>Produção de Energia:</em> A produção de eletricidade a
+                      partir de combustíveis fósseis, como carvão e gás natural,
+                      resulta na emissão de poluentes atmosféricos, incluindo
+                      dióxido de enxofre (SO2), óxidos de nitrogênio (NOx) e
+                      material particulado (PM).
+                    </li>
+                    <li>
+                      <em>Fabricação de Dispositivos:</em>
+                      As fábricas que produzem dispositivos eletrônicos podem
+                      emitir poluentes atmosféricos, resultando em poluição do
+                      ar local.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Poluição da Água:</strong>
+                  <ul>
+                    <li>
+                      <em>Extração de Recursos:</em> A mineração de metais raros
+                      e outros materiais para a produção de tecnologia pode
+                      contaminar corpos d'água com metais pesados e produtos
+                      químicos tóxicos.
+                    </li>
+                    <li>
+                      <em>Processamento de E-Waste:</em> O descarte inadequado
+                      de e-waste pode levar à lixiviação de substâncias tóxicas,
+                      como chumbo e mercúrio, em águas subterrâneas e
+                      superficiais.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>Poluição do Solo:</strong>
+                  <ul>
+                    <li>
+                      <em>Lixões de E-Waste:</em>
+                      Depósitos de lixo eletrônico podem liberar substâncias
+                      tóxicas no solo, prejudicando ecossistemas locais e a
+                      saúde humana.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSeven"
+              aria-expanded="false"
+              aria-controls="flush-collapseSeven"
+            >
+              Estratégias de Mitigação
+            </button>
+          </h2>
+          <div
+            id="flush-collapseSeven"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>
+                  <strong>Energias Renováveis:</strong>
+                  <p>
+                    A transição para fontes de energia renovável, como solar e
+                    eólica, pode reduzir significativamente a pegada de carbono
+                    associada ao consumo de energia por data centers e
+                    dispositivos eletrônicos.
+                  </p>
+                </li>
+                <li>
+                  <strong>Eficiência Energética:</strong>
+                  <p>
+                    Melhorar a eficiência energética de dispositivos e data
+                    centers pode diminuir o consumo de eletricidade e,
+                    consequentemente, as emissões de GEE.
+                  </p>
+                </li>
+                <li>
+                  <strong>Economia Circular:</strong>
+                  <p>
+                    Implementar práticas de economia circular, como reciclagem e
+                    reuso de dispositivos eletrônicos, pode reduzir a
+                    necessidade de extração de recursos e a quantidade de
+                    e-waste.
+                  </p>
+                </li>
+                <li>
+                  <strong>Tecnologias Verdes:</strong>
+                  <p>
+                    Desenvolver e adotar tecnologias que minimizem o impacto
+                    ambiental, como semicondutores de baixo consumo e métodos de
+                    produção sustentáveis.
+                  </p>
+                </li>
+                <li>
+                  <strong>Políticas e Regulamentações:</strong>
+                  <p>
+                    Governos podem implementar políticas e regulamentações que
+                    incentivem a produção e o descarte responsáveis de
+                    dispositivos eletrônicos, bem como a adoção de energias
+                    renováveis.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 id="contactos" class="mt-4">Contactos</h1>
+      <div class="contactos-container mb-4">
+        <div class="contactos-nomes">
+          <h3>Trabalho realizado por:</h3>
+          <span>João Correia</span>
+          <span>Daniel Quaresma</span>
+          <span>Vladimiro Bonaparte</span>
+          <span>Lucas Silvestre</span>
+        </div>
+        <img
+          src="./assets/styles/images/atec-logo.png"
+          class="img-fluid atec-logo"
+          alt="..."
+        />
+        <div class="contactos-formadora">
+          <h3>Formadora:</h3>
+          <span>Rute Solipa</span>
+          <span>UFCD 5415</span>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </html>
